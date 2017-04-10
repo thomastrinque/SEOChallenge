@@ -8,147 +8,157 @@
 	<title></title>
 	<style type="text/css">ul,nav a{list-style:none;text-decoration:none}
 	nav{margin-right:5px}
-	nav a{color:white}
+	nav a{color:#fff}
+	img{width:100%;height:auto}
 	p{margin-top:10px;text-align:center;font-family:sans-serif,arial}
 	article p{text-align:justify}
 	h1{font-family:'Verdana',cursive;font-size:2rem}
 	h2{margin-top:30px;margin-bottom:30px;font-family:'Verdana',cursive;font-size:1.6rem}
 	section{display:flex;flex-direction:column;align-items:center;margin-left:13%;flex:1;margin-right:13%}
-	header{z-index:10;width:100%;display:flex;justify-content:space-between;align-items:center;color:black;margin-top:30px;margin-bottom:30px;list-style:none;background-color:#414a4f;font-family:sans-serif}
+	header{z-index:10;width:100%;display:flex;justify-content:space-between;align-items:center;color:#000;margin-top:30px;margin-bottom:30px;list-style:none;background-color:#414a4f;font-family:sans-serif}
 	header nav{display:flex}
 	header nav li{margin:0 15px}
 	header nav li:first-child{margin-left:0}
 	header nav li:last-child{margin-right:0}
-	@media(max-width:1000px){section{padding:30px 30px;margin-right:0;margin-left:0}
-	}@media(max-width:600px){section{padding:40px 30px}
-	h1{font-family:Verdana,cursive;font-size:1.6rem}
-	}@media(max-width:700px){header{flex-direction:column}
-	nav{flex-wrap:wrap}
-	.menu-btn div{position:absolute;left:100%;top:64%;padding-right:8px;margin-top:-0.50em;line-height:1.2;font-size:18px;font-weight:200;vertical-align:middle;z-index:99}
-	.menu-btn span{display:block;width:19px;height:3px;margin:4px 0;background:#000;z-index:99}
-	.responsive-menu{display:none}
-	}}@media(max-width:350px){h1{font-size:1.4rem}
-	}</style>
-	
-	<noscript>
-		<link rel="stylesheet" href="assets/css/styles.css">
-	</noscript>
-	<script
-	src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-	integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-	crossorigin="anonymous" defer></script>
-	<script type="text/javascript" src="js.js" defer></script>
+	@media (max-width: 1000px) {
+		section{padding:30px;margin-right:0;margin-left:0}
+	}
+	@media (max-width: 600px) {
+		section{padding:40px 30px}
+		h1{font-family:Verdana,cursive;font-size:1.6rem}
+	}
+	@media (max-width: 700px) {
+		header{flex-direction:column}
+		nav{flex-wrap:wrap}
+		.menu-btn div{position:absolute;left:100%;top:64%;padding-right:8px;margin-top:-.5em;line-height:1.2;font-size:18px;font-weight:200;vertical-align:middle;z-index:99}
+		.menu-btn span{display:block;width:19px;height:3px;margin:4px 0;background:#000;z-index:99}
+		.responsive-menu{display:none}
+		.expand{display:block!important}
+	}
+	@media (max-width: 350px) {
+		h1{font-size:1.4rem}
+		}</style>
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+		crossorigin="anonymous" defer></script>
+		<noscript>
+			<link rel="stylesheet" href="assets/css/styles.css">
+		</noscript>
 
-	
-</head>
+		<script type="text/javascript" src="js.js" defer></script>
 
-<body>
 
-	<header>
-		<span itemscope="" itemtype="http://schema.org/Brand">
-			<a href="http://www.seo-hero.tech" title="SEO Hero"><img itemprop="logo" src="assets/img/ogo.png" alt="Jecodeenchaussettes" width="250px"></a>
-		</span>
-		<div class="mobile-nav">
-			<div class="menu-btn" id="menu-btn">
-				<div></div>
-				<span></span>
-				<span></span>
-				<span></span>
+	</head>
+
+	<body>
+
+		<header>
+			<span itemscope="" itemtype="http://schema.org/Brand">
+				<a href="http://www.seo-hero.tech" title="SEO Hero"><img itemprop="logo" src="assets/img/ogo.png" alt="Jecodeenchaussettes" width="250px"></a>
+			</span>
+			<div class="mobile-nav">
+				<div class="menu-btn" id="menu-btn">
+					<div></div>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class ="responsive-menu">
+					<li><a href="accueil.html">Accueil</a></li>
+					<li><a href="apropos.html">A propos</a></li>
+					<li><a href="tutoriel.html">Nos conseils</a></li>
+					<li><a href="prestations.html">Nos Prestations</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="blog.html">Blog</a></li>
+
+				</nav>
 			</div>
-			<nav class ="responsive-menu">
-				<li><a href="accueil.html">Accueil</a></li>
-				<li><a href="apropos.html">A propos</a></li>
-				<li><a href="tutoriel.html">Nos conseils</a></li>
-				<li><a href="prestations.html">Nos Prestations</a></li>
-				<li><a href="faq.html">FAQ</a></li>
-				<li><a href="blog.html">Blog</a></li>
+		</header>
 
-			</nav>
-		</div>
-	</header>
+		<main>
+			<section>
 
-	<main>
-		<section>
+				<h1>Venez découvrir la tendance Jecodeenchaussettes, vous ne le regretterez pas !</h1>
 
-			<h1>Venez découvrir la tendance Jecodeenchaussettes, vous ne le regretterez pas !</h1>
+				<p><strong>Jecodeenchaussettes</strong> vous aide à <strong>créer et un environnement</strong> dans lequel vous vous sentirez totalement à l'aise en codant grâce à un ensembles de conseils.</br> Dites aurevoir à vos anciennes habitudes, <strong>bienvenue dans la nouvelle ère du code sans chaussettes</strong>.</p>
 
-			<p><strong>Jecodeenchaussettes</strong> vous aide à <strong>créer et un environnement</strong> dans lequel vous vous sentirez totalement à l'aise en codant grâce à un ensembles de conseils.</br> Dites aurevoir à vos anciennes habitudes, <strong>bienvenue dans la nouvelle ère du code sans chaussettes</strong>.</p>
+				<img src="assets/img/accueil1.jpg" alt="L'institut Jecodeenchaussettes">
 
-			<img src="assets/img/accueil.jpg" alt="L'institut Jecodeenchaussettes">
+				<article>
+					<h2>Les actions de l'institut Jecodeenchaussettes</h2>
 
-			<article>
-				<h2>Les actions de l'institut Jecodeenchaussettes</h2>
+					<p><strong>Jecodeenchaussettes est un organisme à but institutionnel qui aide les développeurs à trouver une certaine forme de bien-être dans leur travail, notamment en faisant du code en chaussettes.</strong></p>
 
-				<p><strong>Jecodeenchaussettes est un organisme à but institutionnel qui aide les développeurs à trouver une certaine forme de bien-être dans leur travail, notamment en faisant du code en chaussettes.</strong></p>
+					<p>Le bien-être et l'efficience au travail n'est plus une option mais est désormais devenu un enjeu de taille pour les entreprises et les entrepreneurs.
+						Cela est maintenant devenu essentiel et notre institut a pour rôle de vous aider à comprendre pourquoi c'est important, et comment atteindre cette objectif grâce à de bonnes pratiques.
+					</p>
 
-				<p>Le bien-être et l'efficience au travail n'est plus une option mais est désormais devenu un enjeu de taille pour les entreprises et les entrepreneurs.
-					Cela est maintenant devenu essentiel et notre institut a pour rôle de vous aider à comprendre pourquoi c'est important, et comment atteindre cette objectif grâce à de bonnes pratiques.
-				</p>
+					<p>Une autre mission de jecodeenchaussettes est de former des consultants sur la pratique du code en chaussettes et autres "to-dos" afin de proposer des prestations pour les entreprises et pour les autoentrepreneurs pour les former à atteindre leur plénitude au travail. Augmentant ainsi leur rendement de programmation au travail et rendant cet investissement extrêmement rentable.</p>
 
-				<p>Une autre mission de jecodeenchaussettes est de former des consultants sur la pratique du code en chaussettes et autres "to-dos" afin de proposer des prestations pour les entreprises et pour les autoentrepreneurs pour les former à atteindre leur plénitude au travail. Augmentant ainsi leur rendement de programmation au travail et rendant cet investissement extrêmement rentable.</p>
+					<h2> D'ou provient la tendance du code sans chaussettes ?</h2>
 
-				<h2> D'ou provient la tendance du code sans chaussettes ?</h2>
+					<p>Les développeurs web se sont très vite aperçu <strong>que leur profession, très fatiguante intellectuellement, pouvait être réalisée dans un plus grand confort en chaussettes</strong> s'ils le souhaitaient, car ils ne se retrouvent pas confrontés à des clients, hormis lors de rendez-vous.</p>
 
-				<p>Les développeurs web se sont très vite aperçu <strong>que leur profession, très fatiguante intellectuellement, pouvait être réalisée dans un plus grand confort en chaussettes</strong> s'ils le souhaitaient, car ils ne se retrouvent pas confrontés à des clients, hormis lors de rendez-vous.</p>
+					<p>Beaucoup se sont donc mis à échanger leurs bonnes pratiques et un mouvement majeur est né, celui de programmer sans chaussures. Petit à petit cela a grandit et jecodeenchaussettes résulte de cette émergence.</p>
 
-				<p>Beaucoup se sont donc mis à échanger leurs bonnes pratiques et un mouvement majeur est né, celui de programmer sans chaussures. Petit à petit cela a grandit et jecodeenchaussettes résulte de cette émergence.</p>
+					<h2>Pourquoi créer un institut et comment fonctionne-t-il ?</h2>
 
-				<h2>Pourquoi créer un institut et comment fonctionne-t-il ?</h2>
+					<p>Si vous regardez dans certaines firmes, vous vous apercevrez que tous les codeurs n'ont pas encore eu vent de cette nouvelle vision et beaucoup d'entre eux sont encore tout tristes dans leur coin. Notre but à terme est d'essayer de toucher 100% de ce type de poste pour ne laisser personne à l'écart.</p>
 
-				<p>Si vous regardez dans certaines firmes, vous vous apercevrez que tous les codeurs n'ont pas encore eu vent de cette nouvelle vision et beaucoup d'entre eux sont encore tout tristes dans leur coin. Notre but à terme est d'essayer de toucher 100% de ce type de poste pour ne laisser personne à l'écart.</p>
+					<p>Pour atteindre cet objectif, nos conseils sont disponibles via plusieurs canaux: 
+						<ul>
+							<li>-Sur le site internet de l'institut où vous trouverez de nombreux articles ajoutés toutes les semaines et qui vous indiquerons comment bien coder en chaussettes.</li>
 
-				<p>Pour atteindre cet objectif, nos conseils sont disponibles via plusieurs canaux: 
-					<ul>
-						<li>-Sur le site internet de l'institut où vous trouverez de nombreux articles ajoutés toutes les semaines et qui vous indiquerons comment bien coder en chaussettes.</li>
+							<li>-Dans l'agence physique de jecodeenchaussettes au sein de laquelle des conseillers vous proposeront gratuitement un diagnostic de vos méthodes de code et vous aiguilleront sur de meilleurs pratiques, la chaussette étant primordiale.</li>
+						</ul>
+					</p>
 
-						<li>-Dans l'agence physique de jecodeenchaussettes au sein de laquelle des conseillers vous proposeront gratuitement un diagnostic de vos méthodes de code et vous aiguilleront sur de meilleurs pratiques, la chaussette étant primordiale.</li>
-					</ul>
-				</p>
+					<p>Notre organisme jecodeenchaussettes étant encore jeune, nous sommes toujours en progrés, beaucoup de nouvelles actions vont être mises en place pour vous aider à améliorer votre efficacité, mais les retours sont le meilleur moyen de nous aider à nous améliorer, s'il vous plaît aidez-nous à rendre jecodeenchaussettes meilleur.</p>
 
-				<p>Notre organisme jecodeenchaussettes étant encore jeune, nous sommes toujours en progrés, beaucoup de nouvelles actions vont être mises en place pour vous aider à améliorer votre efficacité, mais les retours sont le meilleur moyen de nous aider à nous améliorer, s'il vous plaît aidez-nous à rendre jecodeenchaussettes meilleur.</p>
+				</article>
 
-			</article>
-			
 
-		</section>
-	</main>
-	
+			</section>
+		</main>
 
-	<footer>
-		<div>
-			<p>Restez en contact avec nous sur Facebook</p>
-			<ul>
-				<li><a href="https://www.facebook.com/Jecodeenchaussettes-1662728430690620/">Notre Facebook Français</a></li>
 
-			</ul>
-		</div>
+		<footer>
+			<div>
+				<p>Restez en contact avec nous sur Facebook</p>
+				<ul>
+					<li><a href="https://www.facebook.com/Jecodeenchaussettes-1662728430690620/">Notre Facebook Français</a></li>
 
-		<div>
-			<p>Et sur les autres réseaux sociaux</p>
-			<ul>
-				<li><a href="https://plus.google.com/116321995960226180915">Google +</a></li>
-				<li><a href="https://twitter.com/codeenchaussett">Twitter</a></li>
-			</ul>
-		</div>
+				</ul>
+			</div>
 
-		<div>
-			<p>Liens internes</p>
-			<ul>
-				<li><a href="#">A propos</a></li>
-				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Termes et Conditions</a></li>
-			</ul>
-		</div>
-		
-	</footer>
-	<script type="text/javascript">
-	/* First CSS File */
-	var giftofspeed = document.createElement('link');
-	giftofspeed.rel = 'stylesheet';
-	giftofspeed.href = '../assets/css/style.css';
-	giftofspeed.type = 'text/css';
-	var godefer = document.getElementsByTagName('link')[0];
-	godefer.parentNode.insertBefore(giftofspeed, godefer); </script>
-</body>
+			<div>
+				<p>Et sur les autres réseaux sociaux</p>
+				<ul>
+					<li><a href="https://plus.google.com/116321995960226180915">Google +</a></li>
+					<li><a href="https://twitter.com/codeenchaussett">Twitter</a></li>
+				</ul>
+			</div>
 
-</html>
+			<div>
+				<p>Liens internes</p>
+				<ul>
+					<li><a href="#">A propos</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Termes et Conditions</a></li>
+				</ul>
+			</div>
+
+		</footer>
+		<script type="text/javascript">
+		/* First CSS File */
+		var giftofspeed = document.createElement('link');
+		giftofspeed.rel = 'stylesheet';
+		giftofspeed.href = 'assets/css/styles.css';
+		giftofspeed.type = 'text/css';
+		var godefer = document.getElementsByTagName('link')[0];
+		godefer.parentNode.insertBefore(giftofspeed, godefer);
+		</script>
+	</body>
+
+	</html>

@@ -181,14 +181,15 @@
  		.responsive-menu{
  			display: none;
  		}
-
+ 		.expand {
+ 			display: block !important; 
+ 		}
  	}
 
- }
 
- @media (max-width: 350px){
+ 	@media (max-width: 350px){
 
- 	h1{
- 		font-size: 1.4rem;
+ 		h1{
+ 			font-size: 1.4rem;
+ 		}
  	}
- }
