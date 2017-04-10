@@ -1,0 +1,214 @@
+/*-------------
+ 	General
+ 	-------------*/
+
+
+
+
+ 	ul, nav a{
+ 		list-style: none;
+ 		text-decoration: none;
+ 		
+
+ 	}
+
+ 	nav {
+ 		margin-right: 5px;
+ 	}
+
+ 	nav a {
+ 		color:white;
+ 	}
+
+ 	footer a:hover, nav a:hover {
+ 		text-decoration: underline;
+ 	}
+
+
+ 	p {
+ 		margin-top: 10px;
+ 		text-align: center;
+ 		font-family: sans-serif, arial;
+ 	}
+
+ 	article p {
+ 		text-align: justify;
+ 	}
+
+ 	h1 {
+ 		font-family: 'Verdana', cursive;
+ 		font-size: 2rem;
+ 	}
+
+ 	h2 {
+ 		margin-top: 30px;
+ 		margin-bottom: 30px;
+ 		font-family: 'Verdana', cursive;
+ 		font-size: 1.6rem;
+ 	}
+
+
+
+
+
+ 	section{
+ 		display: flex;
+ 		flex-direction: column;
+ 		align-items: center;
+ 		margin-left: 13%;
+ 		flex:1;
+ 		margin-right: 13%;
+ 	}
+
+
+
+
+
+
+
+/*-------------
+ 	Header
+ 	-------------*/
+
+ 	header{
+
+ 		z-index: 10;
+ 		width: 100%;
+ 		display: flex;
+ 		justify-content: space-between;
+ 		align-items: center;
+ 		color: black;
+ 		margin-top: 30px;
+ 		margin-bottom: 30px;
+ 		list-style: none;
+ 		background-color: #414a4f;
+ 		font-family: sans-serif;
+ 		
+
+
+
+ 	}
+
+ 	
+
+ 	header nav{
+ 		display: flex;
+ 	}
+
+ 	header nav li{
+ 		margin: 0 15px;
+ 	}
+
+ 	header nav li:first-child{
+ 		margin-left: 0;	
+ 	}
+
+ 	header nav li:last-child{
+ 		margin-right: 0;	
+ 	}
+
+
+
+ 	
+
+
+/*----------------
+ 	Hero Section
+ 	----------------*/
+
+ 	
+
+ 	footer{
+ 		display: flex;
+ 		text-align: justify;
+ 		flex-direction:row;
+ 		justify-content: space-between;
+ 		color: #fff;
+ 		background-color: #414a4f;
+ 		padding-left: 4%;
+ 		padding-right: 4%;
+ 		font-family: 'Roboto', sans-serif;
+
+ 		
+ 	}
+
+
+
+ 	footer ul{
+ 		
+ 		margin-bottom: 25px;
+
+ 	}
+
+
+
+ 	footer p a{
+ 		color: #fff;
+ 	}
+
+ 	footer ul a {
+ 		list-style: none;
+ 		text-decoration: none;
+ 		color: white;
+ 	}
+
+
+
+
+
+ 	
+ 	@media (max-width: 1000px){
+
+ 		section{
+ 			padding: 30px 30px;
+ 			margin-right: 0px;
+ 			margin-left: 0px;
+ 		}
+
+ 	}
+
+ 	@media (max-width: 600px){
+
+ 		section{
+ 			padding: 40px 30px;
+ 		}
+
+ 		h1 {
+ 			font-family: Verdana, cursive;
+ 			font-size: 1.6rem;
+ 		}
+
+ 		footer{
+ 			flex-direction: column;
+ 		}
+
+
+
+ 	}
+
+ 	@media (max-width: 700px){
+
+ 		footer{
+ 			padding: 80px 15px;
+ 			text-align: center;
+ 			margin-left: 0px;
+ 			margin-right: 0px;
+ 		}
+
+ 		header{
+ 			flex-direction: column;		
+ 		}
+
+ 		nav{
+ 			
+ 			flex-wrap: wrap;
+ 		}
+
+ 	}
+
+ 	@media (max-width: 350px){
+
+ 		h1{
+ 			font-size: 1.4rem;
+ 		}
+ 	}
