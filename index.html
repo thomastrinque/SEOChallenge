@@ -5,9 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/styles.css" defer>
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+	crossorigin="anonymous" defer></script>
+	<script type="text/javascript" src="js.js" defer></script>
 	
-
 </head>
 
 <body>
@@ -16,16 +20,23 @@
 		<span itemscope="" itemtype="http://schema.org/Brand">
 			<a href="http://www.seo-hero.tech" title="SEO Hero"><img itemprop="logo" src="assets/img/ogo.png" alt="Jecodeenchaussettes" width="250px"></a>
 		</span>
-		
-		<nav>
-			<li><a href="accueil.html">Accueil</a></li>
-			<li><a href="apropos.html">A propos</a></li>
-			<li><a href="tutoriel.html">Nos conseils</a></li>
-			<li><a href="prestations.html">Nos Prestations</a></li>
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="blog.html">Blog</a></li>
+		<div class="mobile-nav">
+			<div class="menu-btn" id="menu-btn">
+				<div></div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class ="responsive-menu">
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="apropos.html">A propos</a></li>
+				<li><a href="tutoriel.html">Nos conseils</a></li>
+				<li><a href="prestations.html">Nos Prestations</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="blog.html">Blog</a></li>
 
-		</nav>
+			</nav>
+		</div>
 	</header>
 
 	<main>
