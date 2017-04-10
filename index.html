@@ -42,9 +42,7 @@
 		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
 		crossorigin="anonymous" defer></script>
-		<noscript>
-			<link rel="stylesheet" href="assets/css/styles.css">
-		</noscript>
+		<link rel="stylesheet" href="assets/css/styles.css" media="none" onload="if(media!='all')media='all'">
 
 		<script type="text/javascript" src="js.js" defer></script>
 
@@ -150,15 +148,7 @@
 			</div>
 
 		</footer>
-		<script type="text/javascript">
-		/* First CSS File */
-		var giftofspeed = document.createElement('link');
-		giftofspeed.rel = 'stylesheet';
-		giftofspeed.href = 'assets/css/styles.css';
-		giftofspeed.type = 'text/css';
-		var godefer = document.getElementsByTagName('link')[0];
-		godefer.parentNode.insertBefore(giftofspeed, godefer);
-		</script>
+
 	</body>
 
 	</html>
